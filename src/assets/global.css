@@ -1,0 +1,62 @@
+/* 
+@import url("https://teliads-assets.netlify.app/fonts/TeliaSansV10/TeliaSans.css");
+@import url("https://teliads-assets.netlify.app/fonts/PebbleFont/Pebble.css");
+*/
+
+/* Normal aka Regular aka 400 */
+@font-face {
+  font-display: swap;
+  font-family: 'TeliaSans';
+  src: url('https://teliads-assets.netlify.app/fonts/TeliaSansV10/WOFF2/TeliaSans-Regular.woff2')
+      format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-display: swap;
+  font-family: 'TeliaSans';
+  src: url('https://teliads-assets.netlify.app/fonts/TeliaSansV10/WOFF2/TeliaSans-Regular.woff2')
+      format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Medium aka 500 */
+@font-face {
+  font-display: swap;
+  font-family: 'TeliaSans';
+  src: url('https://teliads-assets.netlify.app/fonts/TeliaSansV10/WOFF2/TeliaSans-Medium.woff2')
+      format('woff2');
+  font-weight: 500;
+  font-style: normal;
+}
+
+/* Bold aka 700 */
+@font-face {
+  font-display: swap;
+  font-family: 'TeliaSans';
+  src: url('https://teliads-assets.netlify.app/fonts/TeliaSansV10/WOFF2/TeliaSans-Bold.woff2')
+      format('woff2');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-display: swap;
+  font-family: 'TeliaSans';
+  src: url('https://teliads-assets.netlify.app/fonts/TeliaSansV10/WOFF2/TeliaSans-Bold.woff2')
+      format('woff2');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Pebble';
+  font-style: normal;
+  font-weight: normal;
+  src: url('https://teliads-assets.netlify.app/fonts/PebbleFont/Pebble-CAPS.woff2') format('woff');
+}
+
+* {
+  box-sizing: border-box;
+}
